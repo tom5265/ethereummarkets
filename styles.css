@@ -1,0 +1,126 @@
+.hero {
+	height: 190px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/*@media screen and (min-width: 992px) {
+  .hero {
+		height: 260px;
+		width: 100%;
+	}
+}*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+	padding: 12px 20px;
+	max-width: 950px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1, h2 {
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h2 span {
+	color: purple;
+	font-weight: 500;
+}
+
+main {
+	padding: 20px 0;
+	width: 100%;
+	min-height: calc(100vh - 230px);
+	background: #D8D8D8;
+}
+
+.card {
+	padding: 12px;
+	margin: 0 auto;
+	max-width: 400px;
+	background: white;
+	/*border: 1px solid purple;*/
+	-webkit-box-shadow: 7px 6px 5px -4px rgba(128,0,128,1);
+	-moz-box-shadow: 7px 6px 5px -4px rgba(128,0,128,1);
+	box-shadow: 7px 6px 5px -4px rgba(128,0,128,1);
+}
+
+.links {
+	padding: 45px 20px 30px;
+}
+
+.links ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.links ul li {
+	display: inline-block;
+	margin: 0 6px;
+}
+
+.links ul li a {
+	background: #fff;
+	-webkit-box-shadow: 7px 6px 5px -4px rgba(128,0,128,1);
+	-moz-box-shadow: 7px 6px 5px -4px rgba(128,0,128,1);
+	box-shadow: 7px 6px 5px -4px rgba(128,0,128,1);
+	color: purple;
+	text-decoration: none;
+	padding: 12px;
+	position: relative;
+	top: 0;
+	transition: color 0.3s ease-in-out, background 0.3s ease-in-out, box-shadow 0.3s ease-in-out, top 0.3s ease-in-out;
+}
+
+.links ul li a:hover {
+	top: -2px;
+	background: purple;
+	color: #fff;
+	-webkit-box-shadow: 7px 6px 5px -4px rgba(255,255,255,1);
+	-moz-box-shadow: 7px 6px 5px -4px rgba(255,255,255,1);
+	box-shadow: 7px 6px 5px -4px rgba(255,255,255,1);
+}
+
+@media screen and (max-width: 650px) {
+	.links {
+		padding-top: 20px;
+	}
+  .links ul li {
+		display: block;
+		margin: 6px 0;
+	}
+	.links ul li a {
+		display: block;
+		margin: 12px 0;
+	}
+}
+
+footer {
+	text-align: center;
+	background: #fff;
+	width: 100%;
+	padding: 30px 20px;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+footer a {
+	text-decoration: none;
+	color: purple;
+	transition: 0.3s color ease-in-out;
+}
+
+footer a:hover {
+	color: #000000;
+}
