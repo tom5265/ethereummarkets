@@ -26,8 +26,10 @@ function checking () {
 				else if (current >= price) {
 
 					$('.live-price span').css('background', '#FF0000');
+					$('.live-price span').css('color', '#FFFFFF');
 					setTimeout(function() {
-						$('.live-price span').css('background', 'transparent')
+						$('.live-price span').css('background', 'transparent');
+						$('.live-price span').css('color', '#f80759');
 					}, 750);
 					current = price;
 
@@ -35,8 +37,10 @@ function checking () {
 				else if (current < price) {
 
 					$('.live-price span').css('background', '#00FF00');
+					$('.live-price span').css('color', '#FFFFFF');
 					setTimeout(function() {
-						$('.live-price span').css('background', 'transparent')
+						$('.live-price span').css('background', 'transparent');
+						$('.live-price span').css('color', '#f80759');
 					}, 750);
 
 					current = price;

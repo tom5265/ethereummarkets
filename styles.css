@@ -33,7 +33,7 @@ h2 {
 }
 
 h2 span {
-	color: purple;
+	color: #f80759;
 	font-weight: 500;
 }
 
@@ -45,9 +45,18 @@ main {
 	min-height: 500px;
 	background: #bc4e9c;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#f80759), to(#bc4e9c));
+	background: -webkit-linear-gradient(left, #f80759, #bc4e9c);
+	background: -o-linear-gradient(left, #f80759, #bc4e9c);
 	background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
 	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 }
 
@@ -63,7 +72,7 @@ main {
 	margin: 0 auto;
 	max-width: 400px;
 	background: white;
-	/*border: 1px solid purple;*/
+	/*border: 1px solid #f80759;*/
 	-webkit-box-shadow: 7px 6px 5px -4px rgba(128,0,128,1);
 	-moz-box-shadow: 7px 6px 5px -4px rgba(128,0,128,1);
 	box-shadow: 7px 6px 5px -4px rgba(128,0,128,1);
@@ -89,7 +98,7 @@ main {
 	-webkit-box-shadow: 7px 6px 5px -4px rgba(128,0,128,1);
 	-moz-box-shadow: 7px 6px 5px -4px rgba(128,0,128,1);
 	box-shadow: 7px 6px 5px -4px rgba(128,0,128,1);
-	color: purple;
+	color: #f80759;
 	text-decoration: none;
 	padding: 12px;
 	position: relative;
@@ -99,7 +108,7 @@ main {
 
 .links ul li a:hover {
 	top: -2px;
-	background: purple;
+	background: #f80759;
 	color: #fff;
 	-webkit-box-shadow: 7px 6px 5px -4px rgba(255,255,255,1);
 	-moz-box-shadow: 7px 6px 5px -4px rgba(255,255,255,1);
@@ -131,7 +140,7 @@ footer {
 
 footer a {
 	text-decoration: none;
-	color: purple;
+	color: #f80759;
 	transition: 0.3s color ease-in-out;
 }
 
